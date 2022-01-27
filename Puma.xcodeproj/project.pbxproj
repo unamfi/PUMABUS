@@ -12,6 +12,11 @@
 		188AD61D219559110075A318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AD61B219559110075A318 /* Main.storyboard */; };
 		188AD61F219559130075A318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188AD61E219559130075A318 /* Assets.xcassets */; };
 		188AD622219559130075A318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AD620219559130075A318 /* LaunchScreen.storyboard */; };
+		18996CE321AE43710081B3BA /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18996CE221AE43710081B3BA /* SecondView.swift */; };
+		18A85FA521B0D315008EA3F9 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A85FA421B0D315008EA3F9 /* mapViewController.swift */; };
+		18A85FA721B0D4B0008EA3F9 /* puntosEstrategicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A85FA621B0D4B0008EA3F9 /* puntosEstrategicos.swift */; };
+		18A85FA921B0D4C3008EA3F9 /* puntosRutas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A85FA821B0D4C3008EA3F9 /* puntosRutas.swift */; };
+		18C96DF12196A1DB0038C3BB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C96DF02196A1DB0038C3BB /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		188AD61E219559130075A318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188AD621219559130075A318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188AD623219559130075A318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18996CE221AE43710081B3BA /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		18A85FA421B0D315008EA3F9 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		18A85FA621B0D4B0008EA3F9 /* puntosEstrategicos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puntosEstrategicos.swift; sourceTree = "<group>"; };
+		18A85FA821B0D4C3008EA3F9 /* puntosRutas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puntosRutas.swift; sourceTree = "<group>"; };
+		18C96DF02196A1DB0038C3BB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				188AD617219559110075A318 /* AppDelegate.swift */,
-				188AD619219559110075A318 /* ViewController.swift */,
 				188AD61B219559110075A318 /* Main.storyboard */,
 				188AD61E219559130075A318 /* Assets.xcassets */,
 				188AD620219559130075A318 /* LaunchScreen.storyboard */,
 				188AD623219559130075A318 /* Info.plist */,
+				188AD619219559110075A318 /* ViewController.swift */,
+				18996CE221AE43710081B3BA /* SecondView.swift */,
+				18C96DF02196A1DB0038C3BB /* PageViewController.swift */,
+				18A85FA421B0D315008EA3F9 /* mapViewController.swift */,
+				18A85FA621B0D4B0008EA3F9 /* puntosEstrategicos.swift */,
+				18A85FA821B0D4C3008EA3F9 /* puntosRutas.swift */,
 			);
 			path = Puma;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C96DF12196A1DB0038C3BB /* PageViewController.swift in Sources */,
 				188AD61A219559110075A318 /* ViewController.swift in Sources */,
+				18A85FA521B0D315008EA3F9 /* mapViewController.swift in Sources */,
+				18A85FA921B0D4C3008EA3F9 /* puntosRutas.swift in Sources */,
+				18996CE321AE43710081B3BA /* SecondView.swift in Sources */,
 				188AD618219559110075A318 /* AppDelegate.swift in Sources */,
+				18A85FA721B0D4B0008EA3F9 /* puntosEstrategicos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBP2SY6AFY;
 				INFOPLIST_FILE = Puma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBP2SY6AFY;
 				INFOPLIST_FILE = Puma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
